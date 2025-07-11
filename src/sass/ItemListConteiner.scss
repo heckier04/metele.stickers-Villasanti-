@@ -1,0 +1,45 @@
+.item-list-container {
+    padding: 4rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #fdfdfd;
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+    background: linear-gradient(
+        90deg,
+        #ff6a5d,
+        #ffea00,
+        #00eaff,
+        #8dff00,
+        #ff00ea,
+        #ff6a5d
+    );
+    background-size: 300% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-move 5s linear infinite;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+    }
+}
+
+@keyframes rainbow-move {
+ 0% {
+    background-position: 0% center;
+}
+100% {
+    background-position: 300% center;
+}
+}
