@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../sass/Item.scss';
 const ItemCount = ({ stock, onAdd }) => {
     const [count, setCount] = useState(1);
     const [error, setError] = useState(null);

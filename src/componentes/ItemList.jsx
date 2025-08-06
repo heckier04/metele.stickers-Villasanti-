@@ -1,4 +1,5 @@
 import Item from "./Item";
+import '../sass/Item.scss';
 
 const ItemList = ({ data }) => {
     return (

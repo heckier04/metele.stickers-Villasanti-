@@ -6,7 +6,7 @@ const products = [
     price: 500,
     stock: 3,
     category: 'nuevos',
-    img: '/poco un poc(1).jpg'
+    img: '/poco-un-poc (1).jpg'
 },
 {
     id: '02',
@@ -15,7 +15,7 @@ const products = [
     price: 500,
     stock: 3,
     category: 'nuevos',
-    img: '/poco un poc(13).jpg'
+    img: '/poco-un-poc (13).jpg'
 },
 {
     id: '03',
@@ -24,7 +24,7 @@ const products = [
     price: 500,
     stock: 3,
     category: 'mas-vendidos',
-    img: '/poco un poc(3).jpg'
+    img: '/poco-un-poc (3).jpg'
 },
 {
     id: '04',
@@ -33,7 +33,7 @@ const products = [
     price: 500,
     stock: 2,
     category: 'mas-vendidos',
-    img: '/poco un poc(7).jpg'
+    img: '/poco-un-poc (7).jpg'
 }
 ];
 

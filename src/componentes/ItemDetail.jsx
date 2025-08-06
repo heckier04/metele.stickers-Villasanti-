@@ -1,4 +1,5 @@
 import ItemCount from "./ItemCount";
+import '../sass/Item.scss';
 
 const ItemDetail = ({ stuff }) => {
     const onAdd = (quantity) => {
