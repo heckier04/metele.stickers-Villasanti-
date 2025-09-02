@@ -13,7 +13,7 @@ return (
         </div>
         <div className="footer__bottom">
         <p className="footer__copyright">
-            © 2024 TiendaStore. Todos los derechos reservados.
+            © 2025 MeteleStickers. Todos los derechos reservados.
         </p>
         </div>
     </div>
