@@ -1,19 +1,11 @@
 // Variables
 $primary-color: #64ffda;
 $primary-dark: #4fd3b8;
-$secondary-color: #1a1a2e;
-$text-color: #333;
-$text-light: #666;
-$text-muted: #999;
-$white: #ffffff;
-$gray-light: #f8f9fa;
-$shadow: rgba(0, 0, 0, 0.1);
-$shadow-hover: rgba(100, 255, 218, 0.2);
-
-// Transiciones
+$text-color: #fff;
+$bg-color: #1a1a2e;
+$border-radius: 8px;
 $transition-fast: 0.2s ease;
 $transition-medium: 0.3s ease;
-$border-radius: 8px;
 
 // Mixins
 @mixin flex-center {
@@ -22,53 +14,29 @@ $border-radius: 8px;
   justify-content: center;
 }
 
-@mixin hover-effect {
-  transition: all $transition-medium;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px $shadow-hover;
-  }
-}
-
-@mixin gradient-text {
-  background: linear-gradient(135deg, $primary-color, $primary-dark);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 // Animaciones
-@keyframes slideIn {
-  from {
+@keyframes slideDownFade {
+  0% {
     opacity: 0;
     transform: translateY(-20px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
+@keyframes hoverPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
-// Navbar principal
+// Navbar container
 .nav-container {
   display: flex;
   align-items: center;
@@ -76,273 +44,179 @@ $border-radius: 8px;
   padding: 1rem 2rem;
   background: linear-gradient(135deg, #87ceeb 0%, #5dade2 50%, #3498db 100%);
   box-shadow: 0 4px 15px rgba(135, 206, 235, 0.3);
-  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
-  animation: slideIn 0.6s ease-out;
-  gap: 2rem;
   flex-wrap: wrap;
-  
-  // Responsive
+  position: relative;
+  animation: slideDownFade 0.5s ease-out;
+
   @media (max-width: 768px) {
     padding: 1rem;
-    gap: 1rem;
     justify-content: center;
   }
-  
+
   @media (max-width: 480px) {
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem 1rem;
+    gap: 1rem;
   }
 }
 
-// Enlaces de navegación
+// Logo
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: all $transition-medium;
+
+  &:hover {
+    transform: rotate(5deg) scale(1.2);
+  }
+
+  @media (max-width: 768px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media (max-width: 480px) {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+// Nav links desktop
 .nav-link {
   text-decoration: none;
-  color: $white;
+  color: $text-color;
   font-weight: 600;
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
   border-radius: $border-radius;
-  position: relative;
   transition: all $transition-medium;
   @include flex-center;
   gap: 0.5rem;
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  
-  // Efecto de línea inferior
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: linear-gradient(90deg, $white, rgba(255, 255, 255, 0.8));
-    transition: all $transition-medium;
-    transform: translateX(-50%);
-  }
-  
-  // Hover effect
+
   &:hover {
-    color: $white;
     background: rgba(255, 255, 255, 0.25);
-    border-color: rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
-    
-    &::after {
-      width: 100%;
-    }
   }
-  
-  // Estado activo
+
   &.active {
-    color: $white;
     background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
     font-weight: 700;
-    
-    &::after {
-      width: 100%;
+    animation: hoverPulse 2s infinite;
+  }
+
+  @media (max-width: 480px) {
+    display: none; // ocultamos desktop links en móvil
+  }
+}
+
+// Mobile toggle button
+.mobile-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: $text-color;
+  cursor: pointer;
+
+  @media (max-width: 480px) {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
     }
-    
-    // Efecto de brillo para el enlace activo
-    animation: pulse 2s infinite;
-  }
-  
-  // Focus para accesibilidad
-  &:focus {
-    outline: 2px solid $primary-color;
-    outline-offset: 3px;
-  }
-  
-  // Responsive
-  @media (max-width: 768px) {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
-  }
-  
-  @media (max-width: 480px) {
-    width: 100%;
-    justify-content: center;
-    padding: 1rem;
-    font-size: 1rem;
   }
 }
 
-// Logo específico
-.nav-link .logo {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
+// Mobile menu
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: $bg-color;
+  z-index: 10;
+  padding: 1rem 0;
+  animation: slideDownFade 0.4s ease-out;
 
-
-  transition: all $transition-medium;
-
-  
-  &:hover {
-    transform: rotate(5deg) scale(1.2);
- 
-
+  &.open {
+    display: flex;
   }
-  
-  @media (max-width: 768px) {
-    width: 60px;
-    height: 60px;
-    padding: 10px;
+
+  .mobile-nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem;
   }
-  
-  @media (max-width: 480px) {
-    width: 55px;
-    height: 55px;
-    padding: 8px;
+
+  .mobile-link {
+    color: $text-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all $transition-medium;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateX(5px);
+    }
+
+    &.active {
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.25);
+      animation: hoverPulse 2s infinite;
+    }
+  }
+
+  .offer-badge {
+    background: #ff5722;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    animation: hoverPulse 1.5s infinite;
+  }
+
+  .mobile-search {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    input {
+      flex: 1;
+      padding: 0.5rem 1rem;
+      border-radius: $border-radius;
+      border: none;
+      font-size: 1rem;
+    }
   }
 }
 
-// Contenedor del carrito y spinner
-.nav-container > :last-child {
-  @include flex-center;
-  margin-left: auto;
-  
-  @media (max-width: 480px) {
-    margin-left: 0;
-  }
-}
-
-// Spinner personalizado
+// Spinner
 .spinner {
   width: 24px;
   height: 24px;
   border: 3px solid rgba(255, 255, 255, 0.3);
-  border-top: 3px solid $white;
+  border-top: 3px solid $text-color;
   border-radius: 50%;
   animation: spin 1s linear infinite;
-  
+
   &.small {
     width: 20px;
     height: 20px;
     border-width: 2px;
-  }
-}
-
-// Mejoras para CartWidget (asumiendo estructura básica)
-.cart-widget {
-  position: relative;
-  padding: 0.75rem 1rem;
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: $border-radius;
-  color: $white;
-  cursor: pointer;
-  transition: all $transition-medium;
-  backdrop-filter: blur(10px);
-  @include hover-effect;
-  
-  &:hover {
-    color: $white;
-    background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
-  }
-  
-  // Badge del contador (si existe)
-  .cart-count {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: linear-gradient(135deg, #ff6b6b, #ff5722);
-    color: $white;
-    font-size: 0.75rem;
-    font-weight: bold;
-    min-width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    @include flex-center;
-    border: 2px solid $white;
-    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
-  }
-}
-
-// Efectos especiales para ofertas
-.nav-link:contains("Ofertas") {
-  position: relative;
-  
-  &::before {
-    content: '🔥';
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    font-size: 0.8rem;
-    animation: pulse 1.5s infinite;
-  }
-}
-
-// Mejoras de accesibilidad
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-// Hover states mejorados
-.nav-container {
-  &:hover {
-    .nav-link:not(:hover):not(.active) {
-      opacity: 0.7;
-      transform: scale(0.98);
-    }
-  }
-}
-
-// Estilos adicionales para mejor UX
-.nav-link {
-  // Efecto de ondas en click
-  &:active {
-    transform: translateY(0) scale(0.98);
-  }
-  
-  // Estados de teclado
-  &:focus-visible {
-    outline: 3px solid rgba($primary-color, 0.5);
-    outline-offset: 3px;
-  }
-}
-
-// Loading state para toda la navegación
-.nav-container[data-loading="true"] {
-  .nav-link {
-    pointer-events: none;
-    opacity: 0.6;
-  }
-}
-
-// Mejoras visuales adicionales
-.nav-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background: linear-gradient(135deg, rgba($primary-color, 0.02), rgba($primary-dark, 0.02));
-  pointer-events: none;
-  z-index: -1;
-}
-
-// Media query para pantallas muy pequeñas
-@media (max-width: 320px) {
-  .nav-container {
-    padding: 1rem 0.5rem;
-  }
-  
-  .nav-link {
-    padding: 0.8rem 1rem;
-    font-size: 0.9rem;
   }
 }

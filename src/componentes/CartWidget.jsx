@@ -3,7 +3,7 @@ import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 
 const CartWidget = () => {
-  const { cartQuantity } = useCart(); // obtiene la cantidad total de items en el carrito
+  const { cartQuantity } = useCart(); 
 
   return (
     <Link to="/cart" className="cart-widget">
