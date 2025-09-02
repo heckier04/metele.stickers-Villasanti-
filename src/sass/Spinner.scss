@@ -1,0 +1,199 @@
+// Variables para personalización
+$spinner-size: 40px;
+$spinner-border-width: 4px;
+$spinner-color: #3498db;
+$spinner-bg-color: rgba(52, 152, 219, 0.2);
+$spinner-speed: 1s;
+
+// Spinner clásico (tipo loading circle)
+.spinner {
+  width: $spinner-size;
+  height: $spinner-size;
+  border: $spinner-border-width solid $spinner-bg-color;
+  border-top: $spinner-border-width solid $spinner-color;
+  border-radius: 50%;
+  animation: spin $spinner-speed linear infinite;
+  margin: 20px auto;
+  
+  &--small {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+  }
+  
+  &--large {
+    width: 60px;
+    height: 60px;
+    border-width: 6px;
+  }
+}
+
+// Spinner con puntos giratorios
+.spinner-dots {
+  display: inline-block;
+  position: relative;
+  width: $spinner-size;
+  height: $spinner-size;
+  margin: 20px auto;
+  
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: $spinner-color;
+    border-radius: 50%;
+    animation: spinner-dots-rotate $spinner-speed linear infinite;
+    
+    @for $i from 1 through 8 {
+      &:nth-child(#{$i}) {
+        transform: rotate(#{($i - 1) * 45deg}) translate(15px) translate(-50%, -50%);
+        animation-delay: #{($i - 1) * 0.125s};
+      }
+    }
+  }
+}
+
+// Spinner de pulsos
+.spinner-pulse {
+  display: inline-block;
+  width: $spinner-size;
+  height: $spinner-size;
+  background-color: $spinner-color;
+  border-radius: 50%;
+  animation: spinner-pulse 1.5s ease-in-out infinite;
+  margin: 20px auto;
+}
+
+// Spinner de barras
+.spinner-bars {
+  display: inline-block;
+  position: relative;
+  width: $spinner-size;
+  height: $spinner-size;
+  margin: 20px auto;
+  
+  div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 4px;
+    background: $spinner-color;
+    animation: spinner-bars 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) {
+        left: #{8 * $i}px;
+        animation-delay: #{-0.24s + ($i - 1) * 0.12s};
+      }
+    }
+  }
+}
+
+// Spinner de anillo dual
+.spinner-dual-ring {
+  display: inline-block;
+  width: $spinner-size;
+  height: $spinner-size;
+  margin: 20px auto;
+  
+  &::after {
+    content: " ";
+    display: block;
+    width: #{$spinner-size - 8px};
+    height: #{$spinner-size - 8px};
+    margin: 4px;
+    border-radius: 50%;
+    border: 4px solid $spinner-color;
+    border-color: $spinner-color transparent $spinner-color transparent;
+    animation: spinner-dual-ring 1.2s linear infinite;
+  }
+}
+
+// Container para centrar spinners
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  
+  &--fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+  }
+}
+
+// Animaciones
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+@keyframes spinner-dots-rotate {
+  0%, 20%, 80%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes spinner-pulse {
+  0%, 80%, 100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes spinner-bars {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes spinner-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// Mixins para fácil personalización
+@mixin custom-spinner($size: 40px, $color: #3498db, $speed: 1s) {
+  width: $size;
+  height: $size;
+  border: #{$size/10} solid rgba($color, 0.2);
+  border-top: #{$size/10} solid $color;
+  border-radius: 50%;
+  animation: spin $speed linear infinite;
+}
+
+// Clases de utilidad para colores
+.spinner {
+  &--primary { border-top-color: #3498db; }
+  &--success { border-top-color: #2ecc71; }
+  &--warning { border-top-color: #f39c12; }
+  &--danger { border-top-color: #e74c3c; }
+  &--dark { border-top-color: #2c3e50; }
+}
