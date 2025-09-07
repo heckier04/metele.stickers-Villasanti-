@@ -1,11 +1,9 @@
-// Variables para personalización
 $spinner-size: 40px;
 $spinner-border-width: 4px;
 $spinner-color: #3498db;
 $spinner-bg-color: rgba(52, 152, 219, 0.2);
 $spinner-speed: 1s;
 
-// Spinner clásico (tipo loading circle)
 .spinner {
   width: $spinner-size;
   height: $spinner-size;
@@ -28,7 +26,6 @@ $spinner-speed: 1s;
   }
 }
 
-// Spinner con puntos giratorios
 .spinner-dots {
   display: inline-block;
   position: relative;
@@ -55,7 +52,6 @@ $spinner-speed: 1s;
   }
 }
 
-// Spinner de pulsos
 .spinner-pulse {
   display: inline-block;
   width: $spinner-size;
@@ -66,7 +62,6 @@ $spinner-speed: 1s;
   margin: 20px auto;
 }
 
-// Spinner de barras
 .spinner-bars {
   display: inline-block;
   position: relative;
@@ -91,7 +86,6 @@ $spinner-speed: 1s;
   }
 }
 
-// Spinner de anillo dual
 .spinner-dual-ring {
   display: inline-block;
   width: $spinner-size;
@@ -111,7 +105,6 @@ $spinner-speed: 1s;
   }
 }
 
-// Container para centrar spinners
 .spinner-container {
   display: flex;
   justify-content: center;
@@ -128,8 +121,6 @@ $spinner-speed: 1s;
     z-index: 9999;
   }
 }
-
-// Animaciones
 @keyframes spin {
   0% { 
     transform: rotate(0deg); 
@@ -179,7 +170,6 @@ $spinner-speed: 1s;
   }
 }
 
-// Mixins para fácil personalización
 @mixin custom-spinner($size: 40px, $color: #3498db, $speed: 1s) {
   width: $size;
   height: $size;
@@ -189,7 +179,6 @@ $spinner-speed: 1s;
   animation: spin $speed linear infinite;
 }
 
-// Clases de utilidad para colores
 .spinner {
   &--primary { border-top-color: #3498db; }
   &--success { border-top-color: #2ecc71; }

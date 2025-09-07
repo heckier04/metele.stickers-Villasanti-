@@ -1,12 +1,10 @@
 import { createContext, useEffect, useState, useContext } from "react";
-
-// Creamos el contexto
 export const CartContext = createContext();
 
 // Local storage
 const prodLS = JSON.parse(localStorage.getItem('carrito')) || [];
 
-// Creamos el proveedor
+
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState(prodLS);
 
@@ -59,5 +57,4 @@ export const CartProvider = ({ children }) => {
   );
 };
 
-// Hook para usar el contexto
 export const useCart = () => useContext(CartContext);

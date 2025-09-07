@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 60vh; // ocupa buena parte de la pantalla
+  min-height: 60vh; 
   text-align: center;
   font-family: "Inter", sans-serif;
   gap: 1rem;
@@ -12,14 +12,14 @@
   &__title {
     font-size: 2rem;
     font-weight: 700;
-    color: #1f2937; // gris oscuro
+    color: #1f2937; 
     margin-bottom: 0.5rem;
   }
 
   &__subtitle {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #6b7280; // gris suave
+    color: #6b7280; 
     margin-bottom: 1.5rem;
   }
 
@@ -45,7 +45,7 @@
   }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .empty-cart {
     &__title {

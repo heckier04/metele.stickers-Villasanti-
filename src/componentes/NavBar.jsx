@@ -28,12 +28,11 @@ const NavBar = () => {
 
   return (
     <nav className='nav-container'>
-      {/* Logo */}
       <NavLink to='/' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
         <img src='/logo-sin-fondo.png' className="logo" alt="Logo de la tienda" />
       </NavLink>
 
-      {/* Desktop Links */}
+
       <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Inicio</NavLink>
       <NavLink to="/category/nuevos" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Nuevos</NavLink>
       <NavLink to="/category/mas-vendidos" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Más Vendidos</NavLink>
@@ -49,10 +48,8 @@ const NavBar = () => {
         ☰
       </button>
 
-      {/* Mobile Navigation */}
       <div className={`mobile-nav ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="mobile-nav-wrapper">
-          {/* Mobile Search */}
           <form className="mobile-search" onSubmit={handleSearchSubmit}>
             <input 
               type="text" 

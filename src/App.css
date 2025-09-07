@@ -10,5 +10,5 @@ html, body {
 }
 
 .main {
-  flex: 1; /* hace que el contenido principal empuje el footer hacia abajo */
+  flex: 1; 
 }

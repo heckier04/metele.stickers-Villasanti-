@@ -1,6 +1,6 @@
 .footer {
-  background: #111827; // fondo oscuro elegante
-  color: #f3f4f6;     // texto claro
+  background: #111827; 
+  color: #f3f4f6;     
   padding: 2rem 1rem;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -34,7 +34,7 @@
   }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .footer {
     padding: 1.5rem 0;

@@ -29,7 +29,6 @@ const Spinner = ({
         break;
     }
     
-    // Agregar clases de tamaño y color solo para spinner clásico
     if (type === 'default') {
       if (size === 'small') baseClass += ' spinner--small';
       if (size === 'large') baseClass += ' spinner--large';
