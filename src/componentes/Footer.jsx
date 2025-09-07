@@ -1,24 +1,16 @@
-import "../sass/Footer.scss";
 import React from "react";
+import "../sass/Footer.scss";
 
 const Footer = () => {
-
-return (
+  return (
     <footer className="footer">
-    <div className="footer__container">
-        <div className="footer__content">
-            <div className="footer__brand">
-                <img src="/logo-sin-fondo.png"alt="Logo TiendaStore"className="footer__logo"onError={(e) => (e.currentTarget.src = logoFallback)}/>
-            </div>
-        </div>
-        <div className="footer__bottom">
+      <div className="footer__container">
         <p className="footer__copyright">
-            © 2025 MeteleStickers. Todos los derechos reservados.
+          © {new Date().getFullYear()} MeteleStickers. Todos los derechos reservados.
         </p>
-        </div>
-    </div>
+      </div>
     </footer>
-);
+  );
 };
 
 export default Footer;

@@ -1,0 +1,15 @@
+// Layout simple para colocar CheckoutForm y CheckoutSummary lado a lado
+.checkout-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  
+  // En pantallas chicas se apilan verticalmente
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
