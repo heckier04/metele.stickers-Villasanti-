@@ -6,7 +6,7 @@ import NotFound from "./componentes/NotFound";
 import { CartProvider } from "./context/CartContext";
 import Cart from "./componentes/cart";
 import Checkout from "./componentes/Checkout";
-import Footer from "./componentes/footer";
+import Footer from "./componentes/Footer";
 import"./app.css"
 function App() {
   return (
