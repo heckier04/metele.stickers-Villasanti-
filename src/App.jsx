@@ -7,7 +7,7 @@ import { CartProvider } from "./context/CartContext";
 import Cart from "./componentes/cart";
 import Checkout from "./componentes/Checkout";
 import Footer from "./componentes/Footerfinal";
-import './App.css';
+import './styles.css';
 
 function App() {
   return (
