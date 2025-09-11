@@ -1,8 +1,8 @@
-$spinner-size: 40px;
+$spinner-size: 50px;
 $spinner-border-width: 4px;
-$spinner-color: #3498db;
-$spinner-bg-color: rgba(52, 152, 219, 0.2);
-$spinner-speed: 1s;
+$spinner-color: #333;
+$spinner-bg-color: #ccc;
+$spinner-speed: 0.8s;
 
 .spinner {
   width: $spinner-size;

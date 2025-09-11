@@ -9,6 +9,7 @@ import Checkout from "./componentes/Checkout";
 import Footer from "./componentes/Footerfinal";
 import './styles.css';
 
+
 function App() {
   return (
     <BrowserRouter>

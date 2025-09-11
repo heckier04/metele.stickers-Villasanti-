@@ -1,4 +1,4 @@
-import '../sass/spinner.scss';
+import '../sass/Spinner.scss';
 
 const Spinner = ({ 
   type = 'default', 
