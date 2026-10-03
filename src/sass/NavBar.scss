@@ -1,0 +1,183 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #87ceeb, #3498db);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1000;
+  transition: padding 0.3s ease, height 0.3s ease;
+  height: 120px;
+
+  &.scrolled {
+    padding: 0.3rem 2rem;
+    height: 60px;
+    background: linear-gradient(135deg, #3498db, #87ceeb);
+  }
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  li {
+    position: relative;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    font-weight: 500;
+
+    &:hover {
+      background: none;              /* 🔹 sin fondo */
+      backdrop-filter: none;         /* 🔹 sin blur */
+      transform: scale(3.1);         /* 🔹 agranda la letra */
+      color: #ffffff;                /* 🔹 tono más claro */
+      font-weight: 600;              /* 🔹 un poco más gruesa */
+    }
+  }
+
+
+  /* Primer nivel vertical */
+  > .dropdown > .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(52,152,219,0.95);
+    padding: 0.5rem;
+    border-radius: 8px;
+    min-width: 150px;
+    z-index: 2000;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  }
+
+  > .dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  /* Segundo nivel como mega menú ancho al lado */
+  .dropdown-menu .dropdown > .dropdown-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  max-width: 60vw;       /* límite de ancho */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute; 
+  top: -10px;                /* 🔹 Alineado con el primer menú */
+  left: 110%;            /* 🔹 Al lado derecho del primer dropdown */
+  transform: translateY(10px); /* 🔹 Solo desplazamiento vertical */
+  background: rgba(52,152,219,0.95);
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 2000;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    list-style: none;
+    &::before,
+    &::after {
+      content: none !important;
+      display: none !important;
+    }
+  }
+
+  .dropdown-menu .dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu li {
+    margin: 0;
+    position: relative;
+  }
+
+  .dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: none;              /* 🔹 sin fondo */
+      transform: scale(1.1);         /* 🔹 agranda la letra */
+      color: #ffffff;                /* 🔹 tono más claro */
+      font-weight: 600;              /* 🔹 un poco más gruesa */
+    }
+  }
+
+  /* Flechita automática */
+  .dropdown > .nav-link::after {
+    content: "▸";
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    transition: transform 0.3s ease;
+  }
+
+  .dropdown:hover > .nav-link::after {
+    transform: rotate(90deg);
+  }
+
+  .hamburger-icon {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+
+  .products-menu {
+    min-width: 500px !important;
+    padding: 1rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 2rem !important;
+
+    .dropdown-menu {
+      min-width: 200px !important;
+      position: static !important;
+      box-shadow: none !important;
+      border: none !important;
+      background: transparent !important;
+      padding: 0 !important;
+    }
+  }
+}
+
+.logo-link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+  z-index: 1001;
+}
+
+.logo {
+  width: 240px;
+  height: 230px;
+  transition: width 0.3s ease, height 0.3s ease;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+
+  .nav-container.scrolled & {
+    width: 120px;
+    height: 120px;
+    top: -40px;
+  }
+}

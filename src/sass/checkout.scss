@@ -1,0 +1,14 @@
+
+.checkout-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}

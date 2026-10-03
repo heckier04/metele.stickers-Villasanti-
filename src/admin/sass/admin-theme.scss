@@ -1,0 +1,39 @@
+// ============================================
+// PALETA OFICIAL DEL PANEL ADMIN
+// Se importa UNA sola vez (en AdminDashboard.jsx).
+// Cambiar un color acá lo actualiza en todo el admin.
+// ============================================
+:root {
+  // Color principal (botones, links activos, foco de inputs)
+  --admin-primary: #2563eb;
+  --admin-primary-dark: #1d4ed8;
+  --admin-primary-light: #dbeafe;
+
+  // Textos
+  --admin-text: #1e293b;
+  --admin-text-muted: #64748b;
+
+  // Bordes y fondos neutros
+  --admin-border: #e2e8f0;
+  --admin-bg-soft: #f9fafb;
+  --admin-bg-hover: #f1f5f9;
+  --admin-white: #ffffff;
+
+  // Estados
+  --admin-success: #10b981;
+  --admin-success-bg: #d1fae5;
+  --admin-success-text: #065f46;
+
+  --admin-warning: #f59e0b;
+  --admin-warning-bg: #fffbeb;
+  --admin-warning-text: #92400e;
+
+  --admin-critical: #ef4444;
+  --admin-critical-bg: #fef2f2;
+  --admin-critical-text: #991b1b;
+
+  // Sombras / radios reutilizables
+  --admin-radius: 0.75rem;
+  --admin-radius-sm: 0.5rem;
+  --admin-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

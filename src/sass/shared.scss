@@ -1,0 +1,28 @@
+// ============================================
+// Estilos compartidos / genéricos
+// ============================================
+
+.btn-cargar {
+  padding: 0.8rem 1.6rem;
+  background: linear-gradient(135deg, #3498db, #5dade2);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1.5rem auto;
+  display: block;
+  font-weight: 700;
+
+  &:hover {
+    background: linear-gradient(135deg, #2980b9, #5499c7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  }
+
+  &:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+}

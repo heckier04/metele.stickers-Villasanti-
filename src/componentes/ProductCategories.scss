@@ -1,0 +1,146 @@
+.product-categories {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #87ceeb, #3498db);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    &-icon {
+      // El ícono del título no puede heredar el "transparent" del gradiente de texto,
+      // así que se le da color propio directamente.
+      color: #3498db;
+      -webkit-text-fill-color: initial;
+      flex-shrink: 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #666;
+      margin: 0;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.category-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.479);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.459);
+    border-color: #87ceeb;
+
+    .category-card__icon {
+      transform: scale(1.08);
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #87ceeb, #3498db);
+    color: #fff;
+    transition: transform 0.25s ease;
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 0;
+
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+      color: #333;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__arrow {
+    flex-shrink: 0;
+    color: #87ceeb;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  &:hover &__arrow {
+    transform: translateX(5px);
+    color: #3498db;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-categories {
+    padding: 0 1rem;
+
+    &__header {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+
+  .category-card {
+    padding: 1rem;
+
+    &__icon {
+      width: 44px;
+      height: 44px;
+    }
+
+    &__content h3 {
+      font-size: 1.1rem;
+    }
+  }
+}

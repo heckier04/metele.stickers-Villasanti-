@@ -1,0 +1,170 @@
+// Admin Navigation Sidebar — paleta unificada (ver admin-theme.scss)
+$breakpoint-mobile: 768px;
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 260px;
+  background: linear-gradient(135deg, var(--admin-primary) 0%, var(--admin-primary-dark) 100%);
+  color: white;
+  padding: 1.5rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  overflow-y: auto;
+
+  &__header {
+    padding: 0 1.5rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  &__list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.25rem;
+
+    li {
+      margin: 0;
+    }
+  }
+
+  &__link,
+  &__logout {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.85rem 1.5rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+    font-size: 0.9rem;
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-left-color: white;
+      color: white;
+    }
+
+    &.active {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left-color: white;
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  &__logout {
+    margin-top: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    padding: 1rem 1.5rem;
+    background-color: rgba(239, 68, 68, 0.15); // var(--admin-critical) con transparencia
+
+    &:hover {
+      background-color: rgba(239, 68, 68, 0.3);
+      border-left-color: transparent;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  &__label {
+    flex: 1;
+  }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .admin-nav {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: auto;
+    max-height: 100vh;
+    z-index: 999;
+    padding: 1rem 0 0 0;
+
+    &__header {
+      padding: 1rem 1.5rem;
+      margin-bottom: 0;
+    }
+
+    &__toggle {
+      display: block;
+    }
+
+    &__list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: linear-gradient(135deg, var(--admin-primary) 0%, var(--admin-primary-dark) 100%);
+      flex-direction: column;
+      width: 100vw;
+      gap: 0;
+      z-index: 998;
+
+      &.active {
+        display: flex;
+      }
+    }
+
+    &__logout {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      margin-top: 0;
+      padding: 1rem 1.5rem;
+    }
+  }
+}

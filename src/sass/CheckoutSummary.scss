@@ -1,0 +1,24 @@
+.checkout-summary {
+    background-color: #f9fafb; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    h3 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .checkout-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .checkout-total {
+        border-top: 1px solid #d1d5db; 
+        padding-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,78 @@
+// ============================================
+// Selector de cantidad (+ / −) y botón de compra
+// ============================================
+
+.item-count {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(52, 152, 219, 0.08);
+    box-shadow: inset 0 0 0 1px rgba(52, 152, 219, 0.16);
+  }
+
+  .count {
+    min-width: 55px;
+    padding: 0.7rem 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #2c3e50;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background: #ffffff;
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: 800;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, background 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-2px);
+      background: #f0f6ff;
+    }
+  }
+
+  .btn-cash {
+    min-width: 180px;
+    padding: 0.8rem 1.3rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #3498db, #5dade2);
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 22px rgba(52, 152, 219, 0.22);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(52, 152, 219, 0.32);
+    }
+
+    &:disabled {
+      background: #b0bac8;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+  }
+}

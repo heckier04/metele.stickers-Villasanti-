@@ -1,0 +1,55 @@
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+node_modules
+functions/node_modules
+
+dist
+dist-ssr
+*.local
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+functions/.env
+
+# ===== Credenciales de Firebase Admin SDK (CRÍTICO) =====
+# Usadas por scripts/setAdminClaim.js, migrateImagesToR2.js, etc.
+# Si el archivo real tiene otro nombre, agregalo acá también.
+*firebase-adminsdk*.json
+serviceAccountKey.json
+service-account*.json
+*-key.json
+
+# ===== Datos de prueba/mocks (opcional: sacá esta línea si querés versionarlos) =====
+mocks
+
+
+
+
+# ===== Editor directories and files =====
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== Firebase CLI =====
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+ADMIN_FOLDER_STRUCTURE.txt

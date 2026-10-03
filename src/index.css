@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Heyam';
+  src: url('/public/fonts/Heyam.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'New Bread';
+  src: url('/public/fonts/NewBread.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'New Era Casual';
+  src: url('/public/fonts/NewEraCasual.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vanilla Caramel';
+  src: url('/public/fonts/VanillaCaramel.ttf') format('truetype');
+}
+
+body {
+  font-family: 'New Bread','Vanilla Caramel';
+  letter-spacing: 0.08em;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-size-adjust: 0.6;
+  color: #222;
+  text-align: center;
+}
+
+.special-m {
+    font-family: 'Heyam', sans-serif;
+}
+
+.traditional-numbers {
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+}
+
+.item-detail__info {
+    font-family: 'New Era Casual', cursive;
+    font-size: 25px;
+    font-weight: 1000;   /* 👈 ESTO es bold */
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+}
+
+.item-info{
+    font-family: 'New Era Casual', cursive;
+    font-size: 20px;
+    font-weight: 1000;   /* 👈 ESTO es bold */
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+  }

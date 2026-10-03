@@ -1,0 +1,172 @@
+.sticker-slider {
+  width: 100%;
+  max-width: 95%;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    270deg,
+    #ff6b6b,
+    #f7d794,
+    #6a89cc,
+    #78e08f,
+    #ff6b6b,
+    
+  );
+  background-size: 400% 400%;
+  animation: tornasol 20s linear infinite; /* 🔹 linear para giro continuo */
+  padding: 3rem 0;
+  border-radius: 20px;
+}
+
+@keyframes tornasol {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 400% 0%; } 
+}
+
+.sticker-slider__viewport {
+  display: flex;
+  gap: 1.5rem;
+  transition: transform 0.6s ease;
+}
+
+.sticker-slide {
+  flex: 0 0 280px; /* 🔹 más ancho */
+  height: 400px;   /* 🔹 más alto */
+  background: rgba(255,255,255,0.9);
+  border-radius: 18px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &.active {
+    transform: scale(1.05);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+  }
+
+  &.coming {
+    opacity: 0.7;
+    filter: grayscale(0.3) contrast(0.85);
+  }
+}
+
+.sticker-slide__img {
+  width: 100%;
+  height: 280px; /* 🔹 más grande */
+  object-fit: contain;
+  border-radius: 14px;
+  transition: transform 0.3s ease;
+
+  .sticker-slide.active & {
+    transform: scale(1.1);
+  }
+}
+
+.sticker-slide__info {
+  margin-top: 1rem;
+  color: #333;
+  font-size: 1rem;   /* 🔹 controlado */
+  font-weight: 600;
+}
+
+.sticker-slide__badge {
+  display: inline-block;
+  margin-left: 0.6rem;
+  background: linear-gradient(135deg, #3498db, #87ceeb);
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.sticker-slider__controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.sticker-slider__controls button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.25);
+  border: 2px solid #3676ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: rgba(255,255,255,0.4);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.sticker-slider__controls .prev {
+  left: 5px; 
+}
+
+.sticker-slider__controls .next {
+  right: 5px; 
+}
+
+.sticker-slider__dots {
+  display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sticker-slide {
+    flex: 0 0 220px;
+    height: 320px;
+  }
+
+  .sticker-slide__img {
+    height: 200px;
+  }
+
+  .sticker-slide__info {
+    font-size: 0.9rem;
+  }
+
+  .sticker-slider__controls button {
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sticker-slide {
+    flex: 0 0 180px;
+    height: 280px;
+  }
+
+  .sticker-slide__img {
+    height: 160px;
+  }
+
+  .sticker-slide__info {
+    font-size: 0.85rem;
+  }
+
+  .sticker-slider__controls button {
+    width: 48px;
+    height: 48px;
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,151 @@
+// ============================================
+// Vista de detalle de producto (ItemDetail.jsx)
+// ============================================
+@use './animations';
+
+.item-detail {
+  max-width: 1120px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 16px 40px rgba(1, 144, 187, 0.308);
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) 1.2fr;
+  gap: 2.5rem;
+  align-items: stretch; // la columna de imagen se estira para igualar el alto del texto
+  animation: fadeIn 0.5s ease-in-out;
+
+  h1 {
+    margin-top: 0;
+    font-size: clamp(1.8rem, 2vw, 2.6rem);
+    color: #2c3e50;
+  }
+
+  // ⚠️ Esta regla genérica aplica a CUALQUIER <img> dentro de .item-detail.
+  // Si en algún momento algo se ve con una sombra o tamaño rarísimo sin explicación,
+  // revisar acá primero: cualquier img nueva hereda esto salvo que se anule explícitamente.
+  img {
+    width: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+    max-height: 520px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  }
+
+  .item-detail__image-wrapper {
+    background-image: url("/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;        // llena toda la altura de la columna
+    min-height: 400px;   // piso mínimo si el texto es corto
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .item-detail__image-card {
+    width: 92%;
+    height: 92%;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  .item-detail__image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    box-shadow: none; // anula la sombra heredada de la regla genérica "img" de arriba
+    border-radius: 0;  // anula el border-radius heredado también, por las dudas
+  }
+
+  p {
+    line-height: 1.75;
+    color: #4a4a4a;
+    margin: 0.85rem 0;
+  }
+
+  .item-detail__stock {
+    color: #a200ff;
+    font-weight: 700;
+    background: rgba(109, 22, 160, 0.1);
+    padding: 0.85rem 1rem;
+    border-radius: 18px;
+    display: inline-flex;
+  }
+
+  .item-detail__price {
+    color: #16a085;
+    font-weight: 800;
+    font-size: 1.35rem;
+    background: rgba(85, 192, 43, 0.247);
+    padding: 0.85rem 1rem;
+    border-radius: 18px;
+    display: inline-flex;
+  }
+
+  .item-detail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .item-detail__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      padding: 0.8rem 1.4rem;
+      border-radius: 999px;
+      transition: all 0.25s ease;
+
+      &:first-child {
+        background: linear-gradient(135deg, #3498db, #5dade2);
+        color: #fff;
+
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+        }
+      }
+
+      &:last-child {
+        border: 2px solid #3498db;
+        color: #3498db;
+        background: transparent;
+
+        &:hover {
+          background: rgba(52, 152, 219, 0.08);
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+
+  .btn {
+    min-width: 150px;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}

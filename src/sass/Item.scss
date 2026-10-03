@@ -1,0 +1,133 @@
+// ============================================
+// Tarjeta de producto (Item.jsx)
+// ============================================
+@use './animations';
+
+.item-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 100%; // ocupa toda la altura de su celda en la grilla
+  box-sizing: border-box;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .item-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url("/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; // la imagen nunca se achica aunque el texto sea largo
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+      animation: rotateGradient 6s linear infinite;
+    }
+  }
+
+  .item-image {
+    max-width: 220px;
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    position: relative; // por encima del gradiente animado
+    z-index: 1;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  // Envuelve título + precio + botón para poder empujar el botón abajo
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .item-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 0.5rem;
+    line-height: 1.25;
+
+    // Reserva siempre 2 líneas: los nombres cortos y largos
+    // dejan el precio y el botón a la misma altura en toda la fila
+    min-height: calc(1.3rem * 1.25 * 2);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .item-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #27ae60;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #1d6fa5;
+      text-decoration: underline;
+    }
+  }
+
+  .item-btn {
+    margin-top: auto; // siempre anclado al fondo de la tarjeta
+    width: 100%;
+    background: linear-gradient(135deg, #3498db, #5dade2); // ⚠️ CAMBIAR POR TU COLOR
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+
+    &:hover {
+      background: linear-gradient(135deg, #2980b9, #5499c7); // ⚠️ CAMBIAR: tono más oscuro del mismo color de arriba
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4); // ⚠️ CAMBIAR: mismo color en rgba, para el "glow" del hover
+    }
+  }
+}

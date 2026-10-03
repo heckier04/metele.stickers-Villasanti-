@@ -1,0 +1,136 @@
+// ============================================
+// Modal de formulario compartido
+// Usado por: ProductForm (Gestión de Productos),
+// PackForm (Packs), y el formulario de Promociones.
+//
+// Importar con `@use '../sass/shared-modal';` en el
+// .scss de cada página que renderice un formulario modal.
+// Gracias al sistema de módulos de Sass (@use), aunque
+// varias páginas lo importen, el bloque se compila una
+// sola vez por grafo de compilación — no hace falta
+// copiar y pegar este bloque nunca más.
+// ============================================
+
+.product-form-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 1rem;
+}
+
+.product-form {
+  background: var(--admin-white);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+
+  h3 {
+    font-size: 1.4rem;
+    margin: 0 0 1.5rem 0;
+    color: var(--admin-text);
+  }
+
+  &__group {
+    margin-bottom: 1.25rem;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--admin-text);
+      font-size: 0.88rem;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.7rem 0.85rem;
+      border: 2px solid var(--admin-border);
+      border-radius: 0.5rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      color: var(--admin-text);
+      transition: all 0.2s ease;
+      box-sizing: border-box;
+
+      &:focus {
+        outline: none;
+        border-color: var(--admin-primary);
+        box-shadow: 0 0 0 3px var(--admin-primary-light);
+      }
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    .product-form__group {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  &__btn-submit,
+  &__btn-cancel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+  }
+
+  &__btn-submit {
+    background: linear-gradient(135deg, var(--admin-primary), var(--admin-primary-dark));
+    color: var(--admin-white);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px rgba(37, 99, 235, 0.3);
+    }
+  }
+
+  &__btn-cancel {
+    background: var(--admin-bg-hover);
+    color: var(--admin-text-muted);
+
+    &:hover {
+      background: var(--admin-border);
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__row {
+      grid-template-columns: 1fr;
+    }
+  }
+}

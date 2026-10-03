@@ -1,0 +1,147 @@
+// ============================================
+// Página de categorías (Categories.jsx → SubCategories.jsx)
+// ============================================
+@use './animations';
+
+.sub-categories {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-in-out;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50; // mismo tono oscuro que usás en el resto del sitio
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #7a8699;
+      margin: 0;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-rows: 1fr; // todas las tarjetas de una fila miden lo mismo
+    gap: 1.5rem;
+  }
+}
+
+.sub-category-card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.4rem 1.6rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.418);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid rgba(52, 152, 219, 0.08);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(52, 152, 219, 0.18);
+
+    .sub-category-card__icon {
+      transform: scale(1.08);
+    }
+
+    .sub-category-card__arrow {
+      transform: translateX(4px);
+      color: #2980b9;
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #3498db, #5dade2); // mismo celeste que .item-btn
+    color: #fff;
+    transition: transform 0.25s ease;
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 0; // permite que el texto largo trunque en vez de romper el layout
+
+    h3 {
+      font-size: 1.15rem;
+      color: #2c3e50;
+      margin: 0 0 0.3rem 0;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #7a8699;
+      margin: 0;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+
+  &__arrow {
+    flex-shrink: 0;
+    color: #b8c2d0;
+    transition: transform 0.25s ease, color 0.25s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-categories {
+    padding: 1.5rem 1rem;
+
+    &__header {
+      margin-bottom: 2rem;
+
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+
+  .sub-category-card {
+    padding: 1.1rem 1.3rem;
+
+    &__icon {
+      width: 44px;
+      height: 44px;
+    }
+
+    &__content h3 {
+      font-size: 1.05rem;
+    }
+
+    &__content p {
+      font-size: 0.85rem;
+    }
+  }
+}
