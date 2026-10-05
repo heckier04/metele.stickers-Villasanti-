@@ -14,25 +14,6 @@ Corre en modo SIMULACIÓN (no sube nada, no escribe nada en Firestore) a menos
 que le pases el flag --confirmar. Corré primero sin el flag para revisar el
 reporte, y recién después con --confirmar para ejecutar de verdad.
 
-CÓMO USARLO:
-
-1) Instalá dependencias (desde la raíz del proyecto):
-   npm install firebase-admin @aws-sdk/client-s3
-
-2) Configurá las variables de entorno (PowerShell, en la misma terminal donde
-   vas a correr el script):
-   $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\thiag\stickers web\metele-stickerss-firebase-adminsdk-fbsvc-32de81f322.json"
-   $env:R2_ENDPOINT="https://7ee22870417e5a66967afcb5e9d70d3c.r2.cloudflarestorage.com"
-   $env:R2_ACCESS_KEY_ID="476a1fde9c7ac9ac75c77db7ec99e341"
-   $env:R2_SECRET_ACCESS_KEY="354d6f4030de22fac27dc0abc4577a39c139069fd3355c2e6c31ce056631035e"
-   $env:R2_BUCKET="metele-stickers"
-   $env:R2_PUBLIC_URL="https://pub-de3e132d5b9d43bf90571fc35c853838.r2.dev"
-
-3) Corré en modo simulación primero (sin --confirmar):
-   node scripts/migrateImagesToR2.js "C:\ruta\a\tu\carpeta\de\backup"
-
-4) Si el reporte se ve bien, corré de verdad:
-   node scripts/migrateImagesToR2.js "C:\ruta\a\tu\carpeta\de\backup" --confirmar
 */
 import admin from 'firebase-admin';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
