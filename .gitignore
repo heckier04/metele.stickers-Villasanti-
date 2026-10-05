@@ -31,7 +31,7 @@ service-account*.json
 *-key.json
 
 # ===== Datos de prueba/mocks (opcional: sacá esta línea si querés versionarlos) =====
-mocks
+#mocks
 
 
 

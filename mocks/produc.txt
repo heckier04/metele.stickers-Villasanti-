@@ -1,0 +1,2671 @@
+{
+    
+    name: 'DRAGON BALL - Goku chiquito arriba de shenlong',
+    description: 'Sticker de Goku niño montado en Shenlong, el dragón legendario de Dragon Ball.',
+    price: 500,
+    stock: 5,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830060/Goku_chiquito_arriba_de_shen_long_-_Dragon_Ball_gf8diy.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'DRAGON BALL - Goten y Trunks',
+    description: 'Goten y Trunks posando para una foto juntos.',
+    price: 500,
+    stock: 5,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830060/Goten_y_Trunks_-_Dragon_Ball_s1uul0.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'DRAGON BALL - super maestro roshi',
+    description: 'Super Maestro Roshi con gafas de sol y pose genial.',
+    price: 500,
+    stock: 6,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830061/Super_maestro_Roshi_-_Dragon_Ball_cbklwk.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'NARUTO - Naruto comiendo ramen',
+    description: 'Naruto Uzumaki disfrutando de un tazón de ramen caliente.',
+    price: 500,
+    stock: 5,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830061/Super_maestro_Roshi_-_Dragon_Ball_cbklwk.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'DRAGON BALL - Goku y krillin despues de entrenar',
+    description: 'Goku y Krillin después de una intensa sesión de entrenamiento.',
+    price: 500,
+    stock: 4,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830060/Goku_y_Krillin_-_Dragon_Ball_kqvpza.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'DRAGON BALL - goku se enfrenata a krillin en torneo de artes marciales',
+    description: 'Goku enfrentándose a Krillin en el torneo de artes marciales.',
+    price: 500,
+    stock: 3,
+    category: 'anime',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769830060/Enfrentamiento_de_el_torneo_de_artes_marciales_Goku_y_Krillin_-_Dragon_Ball_pvnycs.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Banderas Argentina',
+    description: 'Sticker con diseño de bandera argentina.',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Bandera_Argentina_er5ewx.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Medialuna de oro',
+    description: 'Sticker de medialuna dorada ',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Medialuna_de_oro_b7q5dj.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Isla de malvinas sticker',
+    description: 'Diseño de la isla de Malvinas',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898038/Malvinas_argentinas_flnkhy.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Bizcochitos don satur',
+    description: 'Diseño de bizcochitos de don satur',
+    price: 500,
+    stock: 5,
+    category: 'Meme argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898028/Don_Satur_dulces_j3p9au.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+
+    name: 'Buenos Aires Argentina',
+    description: 'Diseño de Buenos Aires Argentina',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898028/Buenos_Aires_Argentina_pswk1p.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: '100% made in Argentina',
+    description: 'Diseño 100% made in Argentina',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898028/100_made_in_Argentina_iczmnv.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+
+    name: 'Paturuzito',
+    description: 'Diseño de Paturuzito',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898038/Paturuzito_y_su_caballo_uiuudr.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+
+    name: 'calMATE y toMATE un MATE',
+    description: 'Diseño de calMATE y toMATE un MATE',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898028/calMATE_y_toMATE_un_MATE_mt5jhf.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+
+    name: 'Mate amargo como tu vida',
+    description: 'Diseño de mate amargo como tu vida',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Mate_Amargo_como_tu_vida_rlas7o.png',    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Ruta 40 Argentina',
+    description: 'Diseño de ruta 40 Argentina',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Ruta_40_Argentina_rdthm5.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+   
+    name: 'Region Argentina',
+    description: 'Diseño de region argentina',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Region_Argentina_viaezs.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Matecito y a seguir',
+    description: 'Diseño de Matecito y a seguir',
+    price: 500,
+    stock: 5,
+    category: 'argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769898027/Matecito_y_a_seguir_w9ezso.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Logo playstation',
+    description: 'Diseño de logo de playstation',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521625/IMG_5917_j1hyib.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Dino no wifi',
+    description: 'Diseño de dino no wifi',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521607/IMG_5923_j4e8cl.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Corazones minecraft',
+    description: 'Diseño de corazones minecraft',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521607/IMG_5958_bklpzn.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Sonic like',
+    description: 'Diseño de sonic like',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521607/IMG_5939_x31swf.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+   
+    name: 'Mario bros ',
+    description: 'Diseño Mario bros con la mano arriba',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521607/IMG_5934_zwkeue.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+   
+    name: 'control de la ps4 azul',
+    description: 'Diseño de control de la ps4 azul solo para los verdaderos consoleros',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521606/IMG_5913_wjcuty.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Chico GAMER no pasar',
+    description: 'Diseño de chico GAMER no pasar',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521605/IMG_5920_ihsl6n.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'Logo de mortal kombat',
+    description: 'Diseño de logo de mortal kombat',
+    price: 500,
+    stock: 5,
+    category: 'videojuegos',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769521605/IMG_5911_dwq7zk.heic',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'poster de fertnet branca',
+    description: 'sticker de poster de fernet bramaha - argentina marca reconocida de fernet',
+    price: 500,
+    stock: 5,
+    category: 'Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543963/IMG_5710_bhmxr6.heic',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'poster de Argentina colores nacionales',
+    description: 'sticker de poster de Argentina colores nacionales - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543964/IMG_5716_rzad5u.heic',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Logo branca',
+    description: 'sticker de logo branca - sticker fernet branca argentina',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543965/IMG_5722_cuoahc.heic',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Argentina tango Buenos Aires',
+    description: 'sticker de Argentina tango Buenos Aires - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543963/IMG_5712_nlwzte.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Franco Colapinto 43',
+    description: 'sticker de Franco Colapinto 43 - sticker F1 Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543966/IMG_5726_qjd1x2.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Diego Maradona habano',
+    description: 'sticker de Diego Maradona habano - sticker leyenda Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543967/IMG_5727_o2qswj.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Obelisco Buenos Aires',
+    description: 'sticker de Obelisco Buenos Aires - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543965/IMG_5718_iv96ej.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'El Diego',
+    description: 'sticker de El Diego - sticker leyenda Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543969/IMG_5728_y0zio7.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Franco F1',
+    description: 'sticker de Franco F1 - sticker F1 Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543970/IMG_5729_xu3zvb.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'franco Colapinto chiquito',
+    description: 'sticker de Franco Colapinto chiquito - sticker F1 Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543972/IMG_5730_twt7gu.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Col 43',
+    description: 'sticker de Col 43 - sticker F1 Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543973/IMG_5733_flj7y1.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Ricardo Fort ¡BASTA CHICOOOS!',
+    description: 'sticker de Ricardo Fort ¡BASTA CHICOOOS! - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543974/IMG_5735_b0q5om.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Ricardo Fort MIAME',
+    description: 'sticker de Ricardo Fort MIAMEEEEEEEEEEEEEEEEE - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543975/IMG_5736_wdea40.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Leo Matioli rosa',
+    description: 'sticker de Leo Matioli rosa - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543976/IMG_5738_qzgnqm.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Maradona seleccion Argentina',
+    description: 'sticker de Maradona seleccion Argentina - sticker leyenda Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543964/IMG_5716_rzad5u.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Churos en bolsa Argentina',
+    description: 'sticker de Churos en bolsa Argentina - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543979/IMG_5741_k2tee9.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'1 de espada truco argentino',
+    description: 'sticker de 1 de espada truco argentino - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543980/IMG_5747_goaa01.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Botella cortada de fernetcola',
+    description: 'sticker de Botella cortada de fernetcola - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543980/IMG_5746_i0ai7f.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Scorpion sebando mates',
+    description: 'sticker de Scorpion sebando mates - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543982/IMG_5749_z1vcn5.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Ricardo Fort coqueto',
+    description: 'sticker de Ricardo Fort coqueto - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543983/IMG_5750_ozm58n.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Maradona pelusa argentina',
+    description: 'sticker de Maradona pelusa argentina - sticker leyenda Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Coronados de gloria',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543984/IMG_5752_e372bo.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Eternauta nadie se salva de solo',
+    description: 'sticker de Eternauta nadie se salva de solo - sticker nacional Argentina',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543986/IMG_5753_dmdhbb.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name:'Franchella - atiendo coludos',
+    description: 'sticker de Franchella - atiendo coludos - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543987/IMG_5756_qlfryu.heic',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{ 
+    name:'blue label de johnnie walker',
+    description: 'sticker de blue label de johnnie walker - sticker Argentina meme',
+    price: 500,
+    stock: 5,
+    category: 'Meme Argentina',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1769543987/IMG_5756_qlfryu.heic',    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO PIKACHU',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275041/TORNASOLADO_PIKACHU_uddvyk.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO FLORCITA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275041/TORNASOLADO_FLORCITA_l9uxog.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO COCA COLA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275041/COCA_COLA_k4hiyd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO PATAS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275040/TORNASOLADO_PATAS_szy8zc.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO GOHAN',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275000/TORNASOLADO_GOHAN_urfwvm.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO UN SHOW MAS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773274999/TORNASOLADO_UN_SHOW_MAS_pc8owb.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO FANTASMAS PACMAN',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773274999/TORNASOLADO_FANTASMAS_PACMAN_hpqauw.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO GOKU Y KRILLIN',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275000/TORNASOLADO_GOKU_Y_KRILLIN_dgihvz.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO TAYLOR',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773275000/TORNASOLADO_TAYLOR_spyvx3.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO GATO',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773274999/TORNASOLADO_GATO_-_PACMAN_n8uji0.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO ESFERA 4 ESTRELLAS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773274999/TORNASOLADO_ESFERA_4_ESTRELLAS_bsh2so.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO NOCHE ESTRELLADA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191580/TORNASOLADO_NOCHE_MAGICA_txrw0p.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO LEGO WHERE IS MY MIND',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191529/TORNASOLADO_LEGO_WHERE_IS_MY_MIND_ubu89m.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO KRILLIN GOKU ROSHI',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191529/TORNASOLADO_DRAGON_BALL_1_vikmzd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO DINO SKATE',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191528/TORNASOLADO_DINO_SKATE_vne2gc.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO PELOTA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191528/TORNASOLADO_PELOTA_umcbz3.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO MICKY MOUSE',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191528/TORNASOLADO_MICKY_MOUSE_dn9p62.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO AUREOLAS RIVER',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191471/TORNASOLADO_AUREOLAS_RIVER_lvfetb.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO BUENAS VIBRAS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191471/TORNASOLADO_BUENAS_VIBRAS_htxskk.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO AUTO SKYLINE',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191471/TORNASOLADO_AUTO_SKYLINE_otksps.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO WASTED',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191467/TORNASOLADO_WASTED_jnp4vz.png',
+    imageStyle: {
+    filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO REGION ARGENTINA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191466/TORNASOLADO_REGION_ARGENTINA_fahvft.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO CARA FELIZ',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191466/TORNASOLADO_CARA_FELIZ_xxks7b.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+ 
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO ARCOIRIS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191465/TORNASOLADO_ARCOIRIS_waahjm.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO TORTUGAS NINJA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191462/TORNASOLADO_TORTUGAS_NINJA_p9nyp3.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO COOL',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191461/TORNASOLADO_COOL_ivskm4.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO CARTAS TAROT',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191461/TORNASOLADO_CARTAS_TAROT_vwurbk.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SOL DE MAYO',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191445/TORNASOLADO_SOL_DE_MAYO_omrwre.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SPIDERMANS',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191440/TORNASOLADO_SPIDERMANS_k9tzcj.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SLYTERYN',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191440/TORNASOLADO_SLYTERYN_tjbbjo.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SOL',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191439/TORNASOLADO_SOL_i53jyw.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SKATE',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191434/TORNASOLADO_SKATE_tngdpo.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO ROSA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191434/TORNASOLADO_ROSA_smuj7o.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO RICKY FORT',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191433/TORNASOLADO_RICKY_FORT_qgfheo.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SIMBOLO ARGENTINA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191433/TORNASOLADO_SIMBOLO_ARG_u9vaqs.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO RAVENCLAW',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191433/TORNASOLADO_RAVENCLAW_gihezq.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SRES SOY DE BOCA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191433/TORNASOLADO_SRES_SOY_DE_BOCA_wqrdue.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO MARADONA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191425/TORNASOLADO_MARADONA_wimghl.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO IDK',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191424/TORNASOLADO_IDK_neonpz.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO HUFFLEPUFF',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191418/TORNASOLADO_HUFFLEPUFF_ys081o.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO HONGUITO',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191418/TORNASOLADO_HONGUITO_aysnsz.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO GORILLAZ',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191417/TORNASOLADO_GORILLAZ_yssr6r.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO POLLO MINECRAFT',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191417/TORNASOLADO_POLLO_MINECRAFT_q2xhul.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO PLAYSTATION',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191417/TORNASOLADO_PLAYSTATION_txnzhs.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO SUPER ROSHI',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191179/TORNASOLADO_DRAGON_BALL_2_rdtvnu.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO FANTASMA BOO',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191135/TORNASOLADO_FANTASMA_BOO_zbnuco.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO ESTRELLA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191134/TORNASOLADO_ESTRELLA_odeuh2.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO FANTASMA',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191134/TORNASOLADO_FANTASMA_sw2h91.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO FUCK YOU',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191134/TORNASOLADO_FUCK_YOU_tlfhn6.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: 'TORNASOLADO ESTAMPA MESSI',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1773191134/TORNASOLADO_ESTAMPA_MESSI_s3vqsa.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+      
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: '',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'tornasolado',
+    img: '',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+      backgroundImage: 'url("/fondo.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: '',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'Tornasolado',
+    img: '',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+      backgroundImage: 'url("/fondo.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: '',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'Tornasolado',
+    img: '',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+      backgroundImage: 'url("/fondo.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    
+    name: '',
+    description: '¡Dale brillo a tu mundo! ✨ Nuestros stickers tornasolados transforman cualquier superficie con un efecto arcoíris único que cambia de color según la luz. Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 800,
+    stock: 5,
+    category: 'Tornasolado',
+    img: '',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))',
+      backgroundImage: 'url("/fondo.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    
+    name: 'Tiana',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688593/68_Tiara_naxb8q.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Mickey',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688474/29_Mickey_taqn5y.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Pluto bebé',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784830728/Dise%C3%B1o_sin_t%C3%ADtulo_-_2026-07-23T132525.375_hpv879.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Goofy y Max',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688551/78_Pluto_y_Max_m94zje.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Winnie Pooh',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784830732/Dise%C3%B1o_sin_t%C3%ADtulo_-_2026-07-23T131712.521_sdubqp.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Mate',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784830732/Dise%C3%B1o_sin_t%C3%ADtulo_-_2026-07-23T131805.932_e2bbt3.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Rayo Mc Queen',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 7,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688615/16_Rayo_McQueen_lsye5r.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Ferrari',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784830734/Dise%C3%B1o_sin_t%C3%ADtulo_-_2026-07-23T131602.101_srkyez.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Buzz y Woody',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 8,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688469/2_Dise%C3%B1o_sin_t%C3%ADtulo_ccqapn.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },{
+    name: 'Pizza Planet',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 8,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784834367/Dise%C3%B1o_sin_t%C3%ADtulo_-_2026-07-23T160717.037_aqwr5l.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Losto',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688460/1_LOTSO_d4n1mm.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Pizza planet chiquito',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688458/3_Pizza_Planet_chico_ffwk4z.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Sol Rapunzel',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688573/49_Sol_Rapunzel_f0leun.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Paisaje Rapunzel',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688575/99_Cuadro_Rapunzel_s99wbn.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Velas Rapunzel',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688560/39_Velas_Rapunzel_wgojbz.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Pascal Rapunzel',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688561/27_Pascal_Rapunzel_giiako.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Castillo Disney',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 7,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688529/59_Castillo_Disney_h0tw8k.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Cenicienta',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688543/76_Cenicienta_puq0g0.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Princesas',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688490/104_Estampita_Princesas_o2ry1k.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Flor de Bella',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688489/70_Flor_Bella_zdchjy.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Tacita Bella',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688535/36_Tacita_Bella_mulemi.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Charlotte',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688532/62_Charlotte_ftfngu.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Luciernaga princesay el sapo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688575/60_Bichito_de_luz_dbwfsh.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Valiente',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688551/23_Valiente_rbahao.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Hercules',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688594/81_HERCULES_r19l1b.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Tinkerbell',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688572/20_Tinkerbell_gnjvcl.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Hadas',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688525/12_HADAS_lq6pvp.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Simba',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688596/92_Simba_hndbky.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Dumbo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688458/1_DUMBO_fxzvto.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Tarzan',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 1,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688519/100_Tarzan_y10zo0.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Mushu comida',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688469/75_Mushu_oshpd6.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Mushu triste',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688568/88_Mushu_triste_psbl7h.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'La dama y el vagabundo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688609/26_Dise%C3%B1o_sin_t%C3%ADtulo_lxl221.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Dalmatas',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688615/61_Dalmata_j9a4ag.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Cuadro dalmatas',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688496/58_Dalmatas_cuadro_hlgulo.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Aristogatos',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688596/93_Aristogatos_ip56xo.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Ratatouille',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688545/83_Ratattouile_j5z99x.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Phinias y Ferb',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688584/37_Phinias_y_Ferb_dfi0vu.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Perry',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688483/46_Perry_vgewpd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Kick Buttowski',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688551/30_Kick_Buttowski_ad4peq.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Pato',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688602/3_Pato_d1ntqm.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Baymax',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688485/54_BYMAX_yuahig.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Jack',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688525/22_El_Maravilloso_mundo_de_Jack_m7bxgd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Up',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'disney',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688515/90_UP_yhmtcc.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bob Esponja "imaginación"',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688581/40_Bob_Esponja_Imaginaci%C3%B3n_ivuaqs.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bob Esponga Ventana',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688617/80_Ventana_Bob_Esponja_vfd8wt.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bos Esponja y Patricio',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688579/57_Bob_Esponja_y_Patricio_hvbayu.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bob Esponja ejercicio',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688598/106_Bob_Esponja_Pesas_jhdgds.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Escandalosos Foto',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688541/65_Escandalosos_Selfie_b2zjb6.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Escandalosos Lentes',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688581/72_Escandalosos_zfimet.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Escandalosos Polar',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688615/79_Polar_cuchillo_a23ytx.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Garfield Sillon',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688494/35_Garfield_Sill%C3%B3n_uelhjt.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Garfield Lentes',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688610/34_Garfield_Libros_ducaqx.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Garfield Caminando',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688603/11_Garfield_caminando_wkc0b3.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Las chicas super poderosas',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688591/94_Chicas_Superpoderosas_dvpkpz.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bombom',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688479/51_Bomb%C3%B3n_wkj90j.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Burbuja',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688605/98_Burbuja_pov2ks.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bellota',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688567/96_Bellota_bbraqi.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Looney Tunes',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688570/77_Looney_Tunes_v24zp4.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'CN STUDIOS',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688612/56_Billy_y_Mandy_xlhyyg.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Huesos',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688480/71_Huesos_v24mjm.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Tom y Jerry',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688506/85_Tom_y_Jerry_v7dvwd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Jack el Perro',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688472/82_Jack_el_perro_uscirg.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Jack el perro leyendo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688755/33_Jack_leyendo_s8xa5j.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Ed, Edd y Eddy',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688569/63_Ed_Edd_y_Eddy_gnimb7.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Scooby Doo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688518/87_Scooby_Doo_La_maquina_del_misterio_qdq7kq.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Los padrinos mágicos',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688474/10_Los_padrinos_m%C3%A1gicos_dejm2o.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Chimuelo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688542/13_Chimuelo_mf1ksj.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Chimuelo con Hipo',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688559/41_Hipo_con_Chimuelo_cdinvd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Monster High',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'animados',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688550/28_Monster_High_xj5khj.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Anden 9 3/4',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688466/107_Estaci%C3%B3n_9_34_l3sf94.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Snitch',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 9,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688606/31_Snitch_Dorada_ib7hyl.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Los 3 hermanos',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688507/95_Fabula_los_3_hermanos_t2pxkw.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Dobby',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688560/55_Dobby_z4hxd2.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Harry Potter',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688479/53_Harry_Potter_hllbiq.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Gryffindor',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688607/7_Escudo_Gryffindor_am60ab.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Hufflepuff',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688764/6_Escudo_Hufflepuff_ylf1va.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Ravenclaw',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 7,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688530/25_Escudo_Ravenclaw_sn3kwv.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Slytherin',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 6,
+    category: 'harry potter',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688494/19_Escudo_Slytherin_tlpsg2.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Dou',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 1,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688499/32_Homero_Dou_sccyio.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Rosquilla',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688550/14_Homero_Rosquilla_qnntaw.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Mate',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688616/91_Homero_tomando_mate_ojlmea.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Futbol',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 7,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688619/52_Homero_Futbol_llmfuv.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Monito',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688522/18_Homero_monito_ex09sd.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero guitarra',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 1,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688529/43_Homero_Guitarra_yka3js.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero Acurrucado',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688606/4_Homero_Acurrucado_s7n3kf.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Homero y Bender',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688617/67_Homero_y_Bender_zxtez2.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Nelson Ha Ha',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688613/74_Nelson_Ha_Ha_zubkm1.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bart Nirvana',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688531/21_Bart_Nirvana_efxdav.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Bart cama',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688591/66_Bart_en_cama_sxvlvt.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'El Barto',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 5,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688572/5_El_Barto_oqc13l.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Do it for her',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688543/2_Do_It_For_Her_fi95ao.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Que agradable sujeto',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 4,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688500/15_Que_agradable_sujeto_sivwp9.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Puchi',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688514/105_PUCHI_yonfps.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Sillon simpsons',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 3,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688560/50_Sill%C3%B3n_Simpsons_zdxam8.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Flanders gritando',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 7,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688514/69_Flanders_grito_f87rkl.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'FLANders',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688501/84_FLANders_wsdndl.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    name: 'Moe Llamada',
+    description: 'Ponele onda a tus cosas con stickers de vinilo blanco! Son resistentes, fáciles de aplicar y el detalle perfecto para notebooks, celulares, agendas.',
+    price: 500,
+    stock: 2,
+    category: 'los simpsons',
+    img: 'https://res.cloudinary.com/dca3kdslv/image/upload/v1784688586/86_Moe_por_telefono_gyincu.png',
+    imageStyle: {
+      filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))'
+    },
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
